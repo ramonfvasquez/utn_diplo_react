@@ -1,0 +1,26 @@
+* {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text {
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: yellowgreen;
+}
+
+img:hover {
+    transform: scale(50%) rotate(180deg);
+}
+
+h3:hover, h4:hover{
+    font-size: 40px;
+}
