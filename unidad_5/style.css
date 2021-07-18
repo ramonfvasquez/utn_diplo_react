@@ -1,18 +1,20 @@
 * {
+    cursor: pointer;
     background-color: firebrick;
     font-family: 'Courier New', Courier, monospace;
+    user-select: none;
 }
 
 button[type=submit] {
     font-size: 1.5rem;
-    height: 100px;
-    width: 350px;
+    height: 75px;
+    width: 200px;
 }
 
 .content {
-    margin-top: 50px;
+    margin: 100px auto;
     overflow: hidden;
-    width: 100%;
+    width: 60%;
 }
 
 .data {
@@ -21,6 +23,16 @@ button[type=submit] {
 
 .data div:hover{
     color: gold;
+}
+
+.data p {
+    margin-left: 25px;
+}
+
+.data ul {
+    list-style-type: none;
+    margin-left: 25px;
+    padding-left: 0;
 }
 
 .fa-envelope-open-text:hover {
@@ -34,11 +46,11 @@ form {
 
 .form-box {
     border-radius: 50px;
-    box-shadow: 0 0 15px black;
-    margin: 100px;
-    padding: 20px;
+    box-shadow: 0 0 20px black;
+    margin: 100px auto;
+    padding: 50px;
     text-align: center;
-    max-width: 100%;
+    max-width: 40%;
 }
 
 .head {
