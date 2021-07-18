@@ -1,0 +1,69 @@
+* {
+    background-color: firebrick;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    overflow: hidden;
+    width: 100%;
+}
+
+.data {
+    margin-left: 550px;
+}
+
+form {
+    columns: 4;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.head {
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+
+i {
+    color: black;
+    font-size: 1.5rem;
+}
+
+i:hover {
+    color: gold;
+}
+
+img {
+    border-radius: 200px;
+    filter: grayscale(100%);
+    max-height: 350px;
+    max-width: 400px;
+}
+
+img:hover {
+    border-radius: 5px;
+    filter: none
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+.text {
+    border-radius: 15px;
+}
+
+.text:focus {
+    color: gold;
+}
+
+.data ul:active,
+.data p:active {
+    font-size: 2em;
+}
+
+.data div:hover{
+    color: gold;
+}
+
