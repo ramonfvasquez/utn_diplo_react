@@ -75,7 +75,7 @@ img {
 
 img:hover {
     border-radius: 5px;
-    filter: none
+    filter: none;
 }
 
 input {
