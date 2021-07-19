@@ -1,17 +1,28 @@
 * {
-    cursor: pointer;
-    background-color: firebrick;
+    background-color: indigo;
     font-family: 'Courier New', Courier, monospace;
     user-select: none;
 }
 
 button[type=submit] {
+    background-color: indigo;
+    border-radius: 100px;
     font-size: 1.5rem;
-    height: 75px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+}
+
+button[type=submit]:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+
+button[type=submit] i {
+    background-color: indigo;
 }
 
 .content {
+    color: whitesmoke;
     margin: 100px auto;
     overflow: hidden;
     width: 60%;
@@ -23,6 +34,8 @@ button[type=submit] {
 
 .data div:hover{
     color: gold;
+    text-shadow: 0 0 20px black;
+    transform: scale(110%) translate(20px);
 }
 
 .data p {
@@ -45,23 +58,49 @@ form {
 }
 
 .form-box {
+    background-color: teal;
     border-radius: 50px;
     box-shadow: 0 0 20px black;
     margin: 100px auto;
+    max-width: 40%;
     padding: 50px;
     text-align: center;
-    max-width: 40%;
+}
+
+.form-box * {
+    background-color: teal;
+    color: whitesmoke   ;
+}
+
+.form-box input {
+    background-color: indigo;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    transition: width 1s;
+    width: 300px;
+}
+
+.form-box input:focus {
+    color: gold;
+    width: 600px;
+}
+
+.form-box input::placeholder {
+    color: gray;
+    text-align: center;
 }
 
 .head {
     float: left;
     margin-left: 50px;
-    width: 500px;
     text-align: center;
+    width: 500px;
 }
 
 i {
-    color: black;
+    color: whitesmoke;
     font-size: 1.5rem;
 }
 
@@ -70,25 +109,11 @@ img {
     filter: grayscale(100%);
     max-height: 350px;
     max-width: 400px;
-    transition: border-radius 2s, filter 2s;
+    transition: border-radius 2s, box-shadow 2s, filter 2s;
 }
 
 img:hover {
     border-radius: 5px;
+    box-shadow: 0 0 20px black;
     filter: none;
-}
-
-input {
-    border-radius: 15px;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-input:focus {
-    color: gold;
-}
-
-::placeholder {
-    color: black;
-    text-align: center;
 }
