@@ -4,59 +4,65 @@
     user-select: none;
 }
 
-button[type=submit] {
-    background-color: indigo;
-    border-radius: 100px;
-    font-size: 1.5rem;
-    height: 150px;
-    width: 150px;
-}
-
-button[type=submit]:hover {
-    transform: rotate(360deg);
-    transition: transform 0.5s;
-}
-
-button[type=submit] i {
-    background-color: indigo;
-}
-
-.content {
+/* ################### cv-ramon-vasquez.html ################### */
+.container {
     color: whitesmoke;
     margin: 100px auto;
     overflow: hidden;
     width: 60%;
 }
 
-.data {
+.main {
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    width: 500px;
+}
+
+.main img {
+    border-radius: 200px;
+    filter: grayscale(100%);
+    max-height: 350px;
+    max-width: 400px;
+    transition: border-radius 2s, box-shadow 2s, filter 2s;
+}
+
+.main img:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+    filter: none;
+}
+
+.main .fa-envelope-open-text:hover {
+    color: gold;
+}
+
+.content {
     margin-left: 600px;
 }
 
-.data div:hover{
+.content div:hover{
     color: gold;
     text-shadow: 0 0 20px black;
     transform: scale(110%) translate(20px);
 }
 
-.data p {
+.content p {
     margin-left: 25px;
 }
 
-.data ul {
+.content ul {
     list-style-type: none;
     margin-left: 25px;
     padding-left: 0;
 }
 
-.fa-envelope-open-text:hover {
-    color: gold;
-}
-
-form {
+i {
+    color: whitesmoke;
     font-size: 1.5rem;
-    width: 100%;
 }
 
+/* ################### contacto.html ################### */
 .form-box {
     background-color: teal;
     border-radius: 50px;
@@ -70,6 +76,11 @@ form {
 .form-box * {
     background-color: teal;
     color: whitesmoke   ;
+}
+
+.form-box form {
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 .form-box input {
@@ -92,28 +103,19 @@ form {
     text-align: center;
 }
 
-.head {
-    float: left;
-    margin-left: 50px;
-    text-align: center;
-    width: 500px;
-}
-
-i {
-    color: whitesmoke;
+.form-box button[type=submit] {
+    background-color: indigo;
+    border-radius: 100px;
     font-size: 1.5rem;
+    height: 150px;
+    width: 150px;
 }
 
-img {
-    border-radius: 200px;
-    filter: grayscale(100%);
-    max-height: 350px;
-    max-width: 400px;
-    transition: border-radius 2s, box-shadow 2s, filter 2s;
+.form-box button[type=submit] i {
+    background-color: indigo;
 }
 
-img:hover {
-    border-radius: 5px;
-    box-shadow: 0 0 20px black;
-    filter: none;
+.form-box button[type=submit]:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
 }
