@@ -1,6 +1,9 @@
 * {
     margin: 0;
-    padding: 20px;
+}
+
+.cont {
+    padding: 50px!important;
 }
 
 .row {
@@ -16,14 +19,7 @@
     margin: 0;
 }
 
-.site-section:hover {
-    transform: scale(110%);
-    transition: transform 0.5s;
-}
-
 .site-section a {
-    margin: 0;
-    padding: 0;
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
@@ -54,10 +50,10 @@
     max-width: 400px;
 }
 
+.site-section:hover,
 .city .place:hover {
-    border-radius: 10px;
     box-shadow: 0 0 10px 3px black;
-    transform: scale(110%);
+    transform: scale(105%);
     transition: transform 1s;
 }
 
