@@ -1,0 +1,170 @@
+* {
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.column {
+    border: 5px solid skyblue;
+    border-radius: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.head-pic {
+    max-width: 400px;
+}
+
+.site-section {
+    display: block;
+}
+
+.site-section p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 0 0 40px 0;
+}
+
+.site-section.gold:hover {
+    background-color: gold!important;
+}
+
+.site-section.orange:hover {
+    background-color: orange!important;
+}
+
+.site-section.red:hover {
+    background-color: orangered!important;
+}
+
+.site-section li {
+    list-style-type: none;
+}
+
+.section-pic {
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.city img {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px 0;
+    max-height: 200px;
+    max-width: 400px;
+}
+
+.site-section:hover,
+.city .place:hover {
+    border: none;
+    box-shadow: 0 0 20px 10px black;
+    cursor: pointer;
+    transform: scale(100%);
+}
+
+footer {
+    align-items: center;
+    background-color: skyblue;
+    color: whitesmoke;
+    display: flex;
+    font-weight: 100;
+    height: 100px;
+    justify-content: center;
+}
+
+footer p {
+    margin: 30px;
+}
+
+footer a,
+footer a:hover,
+footer a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1700px) {
+    .head-pic {
+        max-width: 300px;
+    }
+
+    .section-pic {
+        max-height: 300px;
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .head-pic {
+        max-width: 200px;
+    }
+
+    .section-pic {
+        max-height: 300px;
+        max-width: 100px;
+    }
+
+    .city img {
+        max-width: 300px;
+    }    
+}
+
+@media only screen and (max-width: 1120px) {
+    .city img {
+        max-width: 200px;
+    }
+}    
+
+@media only screen and (max-width: 991px) {
+    .row {
+        margin: 0;
+    }
+
+    .column {
+        border: none;
+        border-radius: 0;
+    }
+
+    .section-pic {
+        max-height: 0;
+        max-width: 0;
+    }
+
+    .site-section p {
+        margin: 0;
+    }
+
+    .city img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .city img {
+        max-width: 400px;
+    }    
+}
+
+@media only screen and (max-width: 500px) {
+    .city img {
+        max-width: 300px;
+    }    
+}
+
+
