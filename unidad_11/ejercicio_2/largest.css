@@ -1,0 +1,54 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: thistle;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#subtitle {
+    font-size: 0.8rem;
+}
+
+#answer {
+    margin: 30px 0;
+}
+
+form {
+    border: 5px solid crimson;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+form input {
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+form input[type="submit"] {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+h1,
+form input[type="submit"] {
+    margin: 30px;
+}
+
+h1,
+#subtitle,
+#answer,
+form input[type="text"] {
+    color: crimson;
+}

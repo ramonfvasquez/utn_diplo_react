@@ -1,0 +1,37 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: crimson;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body * {
+    margin: 30px;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+}
+
+p {
+    color: cornflowerblue;
+    text-shadow: 3px 3px 3px black;
+}
+
+form * {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+form input[type="text"] {
+    width: 400px;
+}
