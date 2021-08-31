@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: teal;
+}
+
+.container {
+    background-color: teal;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 50px;
+    text-align: center;
+    width: 20%;
+}
+
+h1,
+p {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-weight: bolder;
+}
+
+textarea {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin: 30px;
+    padding: 10px;
+    resize: none;
+}
