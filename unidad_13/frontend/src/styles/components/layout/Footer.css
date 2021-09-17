@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: skyblue;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  padding: 50px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: whitesmoke;
+}

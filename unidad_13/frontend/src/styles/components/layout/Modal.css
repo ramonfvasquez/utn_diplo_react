@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal * {
+  background-color: tomato;
+}
+
+.modal-content {
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  height: 80%;
+  margin: 5% auto;
+  padding: 20px;
+  width: 80%;
+}

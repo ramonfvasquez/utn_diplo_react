@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.place-btn {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+  width: 500px;
+}
+
+.place-btn:hover {
+  box-shadow: 0 0 10px 2px black;
+  transform: scale(103%);
+}
+
+.place-btn p {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin: 0 0 30px 0;
+}
+
+.place-btn img {
+  border-radius: 10px;
+  max-height: 200px;
+  max-width: 400px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: royalblue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-pink {
+  background-color: lightpink;
+}
+
+.bg-red {
+  background-color: tomato;
+}
+
+.bg-yellow {
+  background-color: gold;
+}
+
+.t-black {
+  color: black;
+}
+
+.t-white {
+  color: whitesmoke;
+}
