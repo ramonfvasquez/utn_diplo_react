@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-header {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  top: 70px;
+}
+
+.modal-header img {
+  margin: 0 50px;
+  max-width: 100px;
+}
+
+.modal-header span {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bolder;
+}

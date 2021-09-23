@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap");
+
+* {
+  font-family: "Recursive", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+  margin: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gold;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: green;
+}

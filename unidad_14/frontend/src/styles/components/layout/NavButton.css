@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-btn {
+  background-color: tomato;
+  border-radius: 10px;
+  height: 300px;
+  margin: 5px;
+  padding: 30px;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  box-shadow: 0 0 10px 2px black;
+  transform: scale(103%);
+}
+
+.nav-btn p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.nav-btn img {
+  margin: 20px 0;
+  max-width: 150px;
+}
+
+.hbg-yellow:hover {
+  background-color: gold;
+  color: black;
+}
+
+.hbg-orange:hover {
+  background-color: orange;
+}
+
+.hbg-red:hover {
+  background-color: orangered;
+}
+
+.t-black {
+  color: black;
+}
+
+.t-white {
+  color: whitesmoke;
+}

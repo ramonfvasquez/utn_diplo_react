@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.character {
+  border-radius: 20px;
+  color: whitesmoke;
+  min-height: 400px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.character:nth-child(odd) {
+  background-color: gold;
+  color: black;
+}
+
+.character:nth-child(odd) img {
+  float: right;
+}
+
+.character:nth-child(even) {
+  background-color: green;
+}
+
+.character:nth-child(even) img {
+  float: left;
+}
+
+.character img {
+  max-height: 300px;
+  margin: 30px;
+  padding: 0 auto;
+}
+
+.character p {
+  margin: 50px;
+  font-weight: bold;
+  text-align: justify;
+}
