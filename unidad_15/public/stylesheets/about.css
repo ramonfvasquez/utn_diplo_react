@@ -1,0 +1,69 @@
+.staff-list {
+  display: flex;
+  justify-content: center;
+}
+
+.staff-member {
+  border-radius: 0 50px 0 50px;
+  height: 50px;
+  list-style-type: none;
+  margin: 10px;
+  overflow-y: hidden;
+  padding: 30px;
+  text-align: center;
+  transition-delay: 1ms;
+  transition-duration: 1s;
+  transition-property: all;
+  width: 20%;
+}
+
+.staff-member:hover {
+  height: 300px;
+  transition-delay: 1ms;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.staff-member:nth-child(1) {
+  border: 3px solid gold;
+}
+
+.staff-member:nth-child(1):hover {
+  background-color: rgba(255, 217, 0, 0.3);
+}
+
+.staff-member:nth-child(2) {
+  border: 3px solid darkorange;
+}
+
+.staff-member:nth-child(2):hover {
+  background-color: rgba(255, 140, 0, 0.3);
+}
+
+.staff-member:nth-child(3) {
+  border: 3px solid red;
+}
+
+.staff-member:nth-child(3):hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.staff-member:nth-child(4) {
+  border: 3px solid hotpink;
+}
+
+.staff-member:nth-child(4):hover {
+  background-color: rgba(255, 105, 180, 0.3);
+}
+
+.staff-member:nth-child(5) {
+  border: 3px solid purple;
+}
+
+.staff-member:nth-child(5):hover {
+  background-color: rgba(128, 0, 128, 0.3);
+}
+
+.staff-member img {
+  max-height: 200px;
+}

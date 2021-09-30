@@ -1,0 +1,28 @@
+form {
+  align-items: center;
+  background-color: royalblue;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 30px 0;
+  width: 30%;
+}
+
+form * {
+  border-radius: 5px;
+  color: royalblue;
+  font-size: 1.3rem;
+  height: 50px;
+  margin: 20px 0;
+  width: 70%;
+}
+
+form button {
+  background-color: whitesmoke;
+}
+
+form input::placeholder {
+  text-align: center;
+}
