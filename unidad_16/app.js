@@ -7,7 +7,6 @@ var session = require('express-session');
 var hbs = require('hbs');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -27,13 +26,12 @@ app.use(session({
   saveUninitialized: true,
 }));
 
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
+app.use('/', indexRouter);
 
-app.get('/', function(req, res) {
+app.get('/wonderland', function(req, res) {
   var known = Boolean(req.session.name);
 
-  res.render('index', {
+  res.render('wonderland', {
     title: 'Wonderland',
     known,
     name: req.session.name,
@@ -45,7 +43,7 @@ app.post('/wonderland', function(req, res) {
     req.session.name = req.body.name;
   };
 
-  res.redirect('/');
+  res.redirect('/wonderland');
 });
 
 app.get('/exit', function(req, res) {

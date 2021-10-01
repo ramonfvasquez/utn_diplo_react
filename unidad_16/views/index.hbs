@@ -1,23 +1,2 @@
-{{#if known}}
-    <h1>{{title}}</h1>
-    {{#ifEquals name "Alice"}}
-        <p>Hello, {{name}}! We're all mad here!</p>
-        <img src="/images/cheshire.jpg" class="cheshire">
-    {{else}}
-        <p>What kind of toy is a {{name}}? OFF WITH ITS HEAD!!!</p>
-        <img src="/images/queen-of-hearts.jpg" class="queen">
-    {{/ifEquals}}
-    <div class="exit-container">
-        <img src="/images/white-rabbit.jpg" alt="" class="exit-img">
-        <a href="/exit">Up, up, up the rabbit hole...</a>
-    </div>
-{{/if}}
-
-{{#unless known}}
-    <h1>Down the Rabbit Hole</h1>
-    <p>Whooo...are...you?</p>
-    <img src="/images/who-are-you.jpg" alt="">
-    <form action="/wonderland" method="post">
-        <input type="text" name="name" id="name"><button>?</button>
-    </form>
-{{/unless}}
+<h1>{{title}}</h1>
+<a href="/wonderland"><img src="/images/rabbit-hole.jpeg" alt=""></a>
