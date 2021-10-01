@@ -1,0 +1,89 @@
+* {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+h1 {
+  color: limegreen;
+  font-size: 3em;
+}
+
+p,
+a {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:visited {
+  color: aliceblue;
+}
+
+img {
+  border: 5px solid aliceblue;
+  border-radius: 300px;
+}
+
+.cheshire {
+  transform: rotate(0deg) scale(100%);
+  transition: all 1s;
+}
+
+.cheshire:hover {
+  transform: rotate(360deg) scale(50%);
+  transition: all 1s;
+}
+
+.exit-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.exit-img {
+  border: 3px solid aliceblue;
+  border-radius: 100px;
+  margin-right: 20px;
+  max-height: 50px;
+}
+
+form {
+  background-color: deeppink;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px auto;
+  width: 30%;
+}
+
+form * {
+  background-color: aliceblue;
+  border: none;
+  box-sizing: border-box;
+  color: darkblue;
+  font-size: 2rem;
+  height: 50px;
+}
+
+form input {
+  border-radius: 50px 0 0 50px;
+  width: 500px;
+}
+
+form button {
+  border: none;
+  border-left: 1px solid black;
+  border-radius: 0 50px 50px 0;
+  width: 70px;
+}
