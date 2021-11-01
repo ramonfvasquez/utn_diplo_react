@@ -1,0 +1,15 @@
+<div class="container" style="margin:50px auto">
+    <div class="row">
+        <div class="col">
+            <p class="text-right">¡Hola, {{ user }}! <a href="/admin/login/logout" class="btn btn-sm btn-danger">Cerrar sesión<i class="fa fa-sign-out"></i></a></p>
+            <ul>
+                {{#each content}}
+                    <li>
+                        <a href="/admin/obras/{{this.titulo}}"><h1>{{this.titulo}}</h1></a>
+                        <h4>{{this.autor}} [{{this.inicio}} - {{this.fin}}]</h4>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
